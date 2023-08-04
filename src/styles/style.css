@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+p,
+div {
+    font-family: Poppins;
+    font-weight: 400;
+
+}
+
+.nav-container {
+    text-align: center;
+    display: flex;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    letter-spacing: 1.375px
+}
+
+.nav-left {
+    /* flex: 0.9; */
+    margin-right: 21%;
+}
+
+
+.nav-right {
+    display: flex;
+    gap: 45px;
+    /* flex: 1; */
+    align-items: center;
+}
+
+.contact {
+    background-color: #608AF5;
+    padding: 10px 18px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* first section */
+.big-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.blue-circle-bg {
+    position: absolute;
+    top: -10%;
+    left: 17%;
+    bottom: 0;
+    right: 0;
+}
+
+.second-blue-circle-bg {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    bottom: 0;
+    right: 0;
+}
+
+.writing-section {
+    width: 30%;
+}
+
+.name {
+    font-weight: 600;
+    color: #002265;
+    font-size: 25px;
+}
+
+.top-section {
+    line-height: 40px;
+    letter-spacing: 1.375px
+}
+
+.bottom-section {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.pic {
+    object-fit: cover;
+    width: 450px;
+    height: 300px;
+}
+
+/* second section */
+.second-container-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    position: relative;
+}
+
+.second-section-blue-circle-bg {
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    bottom: 0;
+    right: 0;
+}
+
+.second-section-blue-circle-second-bg {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    bottom: 0;
+    right: 0;
+}
+
+
+.second-topic {
+    color: #14279B;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.925px;
+}
+
+.word-passions {
+    color: #002265;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.925px;
+}
+
+
+.image-section {
+    display: flex;
+    flex: row;
+    gap: 40px;
+}
+
+.block-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 250px;
+    height: 200px;
+    margin-top: 40px;
+}
+
+.inside-image {
+    object-fit: cover;
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+/* third section */
+
+.third-section-inside-image {
+    object-fit: cover;
+    width: 120px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.third-section-inside-image-second {
+    object-fit: cover;
+    width: 105px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.third-section-inside-image-third {
+    object-fit: cover;
+    width: 160px;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+
+
+
+/* Footer section */
+
+.footer-block-container {
+    margin-top: 70px;
+
+}
+
+.blue-block {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.footer-image-section {
+    display: flex;
+    flex: row;
+    gap: 100px;
+}
+
+.inside-blue-block {
+    position: absolute;
+    top: 25px;
+    bottom: 0px;
+    left: 35px;
+    right: 0px;
+}
+
+.contact-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-app {
+    margin-top: 20px;
+    color: #3F3D56;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1.925px;
+}
+
+/* bottom section */
+
+.wave {
+    width: 100%;
+    position: absolute;
+    justify-content: end;
+}
+
+.last-bottom-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin-top: 300px;
+}
+
+.bottom-text {
+    position: absolute;
+    /* top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; */
+    flex-shrink: 0;
+    color: white;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.925px;
+}
